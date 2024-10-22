@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social</title>
+    <!-- vinculción con fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- vinculación css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h1 class="title">Red Social Pajarito</h1>
+
+    <h2 class="subTitle">Compartir</h2>
+    <form id="postForm" >
+        <label for="postTitle">Título</label>
+        <input type="text" id="postTitle" required>
+        <label for="postBody">Comentario</label>
+        <textarea  id="postBody" required></textarea>
+        <button class="buttonPost" type="submit">Enviar</button>
+    </form>
+
+    <!-- <h2 class="subTitle">Posteos</h2>
+    <button class="buttonPost" onclick="getData()">Ver Posteos</button> -->
+    <!--boton elaborado de forma dicdatica para ver como funciona el getData-->
+    <ul id="postList"></ul>
+
+<!-- vinculación con archivo Js -->
+    <script src="script.js"></script>
+</body>
+</html>

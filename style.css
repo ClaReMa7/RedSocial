@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    background-color: #f0f9fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+    color:  rgb(38, 50, 60);
+}
+
+.subTitle {
+    margin-top: 10px;
+    color: rgba(64, 74, 98, 0.983);
+    margin-bottom: 10px;
+}
+
+.buttonPost {
+    padding: 8px 12px;
+    background: rgb(3, 114, 150);
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(243, 239, 239);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.buttonPost:hover {
+    background: rgb(36, 151, 196);
+}
+
+form {
+    text-align: center;
+    color: rgb(71, 96, 110);
+    display: contents;
+}
+
+.editForm div {
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+.editForm label {
+    display: block; 
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+}
+
+.editForm input, .editForm textarea {
+    width: 100%; /* Que los campos del formulario de edición ocupen el 100% del contenedor */
+    padding: 10px;
+}
+
+input, textarea {
+    font-family: inherit; 
+    font-size: inherit;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow:   0 2px 0 rgb(224, 224, 225);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Alinea los elementos de la lista al centro */
+    width: 50%; 
+}
+
+li {
+    margin-bottom: 15px;
+    background-color: #f7fafbcd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postItem {
+    text-align: center;
+}
+
